@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Step2</title>
+</head>
+
+<body style="background-image:url(img/Live-Background-1.svg) ; background-repeat: no-repeat;">
+    <header id="header1">
+        <div id="navbar">
+            <nav>
+                <ul id="second-list">
+                    <li><a href="#">&#127913;
+                        </a></li>
+                    <li><a href="/HTML/internetingishard.html">Home</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+                <div id="first-list">
+                    <ul>
+                        <li><a href="#">First link</a></li>
+                        <li><a href="#">Second link</a></li>
+                        <li><a href="/HTML/Store.html">Store &nbsp;</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>What product do you want to buy ? </h1><br>
+
+            <div>
+                <div id="form">
+                    <form action="/HTML/step3.html">
+                        <label for="product">Product to buy:</label><br />
+                        <!-- <input type="text" id="product" name="product" required /> -->
+                        <select id="product" name="product" required>
+                            <option>Banana</option>
+                            <option selected>Cherry</option>
+                            <option>Lemon</option>
+                        </select>
+                        <span></span>
+                        <br /><label for="quantity">How many:</label><br />
+                        <input type="number" name="quantity" id="quantity" min="1" max="9" step="1" value="1"
+                            pattern="[0-9]">
+                        <!-- <input type="range" id="quantity" min="1" max="9" step="1" value="1" name="quantity" required /> -->
+                        <span></span>
+                        <!-- <br /><label for="message">message:</label><br />
+                        <textarea id="message" name="message" required></textarea>
+                        <span></span> -->
+
+                        <br /><input id="bsubmit" type="submit" value="Step3" />
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
